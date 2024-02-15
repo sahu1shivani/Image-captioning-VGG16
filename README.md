@@ -13,6 +13,15 @@ The project uses a CNN encoder (based on InceptionV3) to extract features from i
 - Pandas
 - Matplotlib
 - Pillow
+
+# Installation
+Clone the repository and install the required packages:
+
+bash
+Copy code
+git clone https://github.com/sahu1shivani/image-captioning-VGG-16.git
+cd image-captioning
+pip install -r requirements.txt
 # Model Architecture
 The model architecture consists of:
 
