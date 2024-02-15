@@ -14,17 +14,16 @@ The project uses a CNN encoder (based on InceptionV3) to extract features from i
 - Pillow
 # Installation
 Clone the repository and install the required packages:
-
-bash
-Copy code
 - git clone https://github.com/sahu1shivani/image-captioning-VGG-16.git
 - cd image-captioning
 - pip install -r requirements.txt
 # Model Architecture
 The model architecture consists of:
-
 - CNN Encoder: A modified InceptionV3 model that extracts features from images.
 - Transformer Encoder Layer: Applies layer normalization, dense layers, and multi-head attention to the encoder input.
 - Embeddings: Combines token embeddings with position embeddings.
 - Transformer Decoder Layer: Includes multi-head attention layers (for self-attention and encoder-decoder attention), layer normalization, and feed-forward networks.
 - ImageCaptioningModel: The main model that combines the CNN encoder, transformer encoder, and decoder.
+# Acknowledgments
+- The MS COCO dataset for providing the images and captions for training the model.
+- The TensorFlow team for providing an excellent deep learning framework.
