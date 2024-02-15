@@ -13,3 +13,11 @@ The project uses a CNN encoder (based on InceptionV3) to extract features from i
 - Pandas
 - Matplotlib
 - Pillow
+# Model Architecture
+The model architecture consists of:
+
+- CNN Encoder: A modified InceptionV3 model that extracts features from images.
+- Transformer Encoder Layer: Applies layer normalization, dense layers, and multi-head attention to the encoder input.
+- Embeddings: Combines token embeddings with position embeddings.
+- Transformer Decoder Layer: Includes multi-head attention layers (for self-attention and encoder-decoder attention), layer normalization, and feed-forward networks.
+- ImageCaptioningModel: The main model that combines the CNN encoder, transformer encoder, and decoder.
