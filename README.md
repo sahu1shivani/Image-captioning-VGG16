@@ -4,7 +4,6 @@ This repository contains the implementation of an image captioning system using 
 
 # Overview
 The project uses a CNN encoder (based on InceptionV3) to extract features from images, and a Transformer-based decoder to generate captions. The model is trained on a subset of the MS COCO dataset.
-
 # Getting Started
 # Prerequisites
 - Python 3.8 or later
@@ -13,15 +12,14 @@ The project uses a CNN encoder (based on InceptionV3) to extract features from i
 - Pandas
 - Matplotlib
 - Pillow
-
 # Installation
 Clone the repository and install the required packages:
 
 bash
 Copy code
-git clone https://github.com/sahu1shivani/image-captioning-VGG-16.git
-cd image-captioning
-pip install -r requirements.txt
+- git clone https://github.com/sahu1shivani/image-captioning-VGG-16.git
+- cd image-captioning
+- pip install -r requirements.txt
 # Model Architecture
 The model architecture consists of:
 
