@@ -7,9 +7,9 @@ The project uses a CNN encoder (based on InceptionV3) to extract features from i
 
 Getting Started
 Prerequisites
-Python 3.8 or later
-TensorFlow 2.4 or later
-NumPy
-Pandas
-Matplotlib
-Pillow
+-Python 3.8 or later
+-TensorFlow 2.4 or later
+-NumPy
+-Pandas
+-Matplotlib
+-Pillow
